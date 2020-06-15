@@ -1,11 +1,14 @@
 # FashionInsta
 
 ![ScreenShot](/docs/scr1.png?raw=true)
-![ScreenShot](/docs/scr2.png?raw=true)
-![ScreenShot](/docs/scr3.png?raw=true)
+<br/>
+<br/>
 ![ScreenShot](/docs/scr4.png?raw=true)
+<br/>
+<br/>
 ![ScreenShot](/docs/scr5.png?raw=true)
-
+<br/>
+<br/>
 Projeto final do AceleraDev React.
 FashionInsta é um e-commerce voltado para moda feminina
 
