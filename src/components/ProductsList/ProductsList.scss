@@ -1,0 +1,18 @@
+.product__list{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100%;
+    overflow-y: auto;
+    height: 100%;
+
+    .list__notfount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        width: 100%;
+        color: #212529;
+    }
+}

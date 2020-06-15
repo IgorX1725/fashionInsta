@@ -1,0 +1,106 @@
+.single__product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 auto;
+    position: relative;
+    max-width: 100%;
+    padding: 1.0rem;
+    padding-bottom: 6rem;
+
+    .product__image {
+        width: 50%;
+        margin: 0;
+        
+        img{
+            width: 100%;
+        }
+    }
+
+    .product__content{
+        padding: 1.0rem;
+        max-width: 50%;
+        .product__name{
+            text-align: left;
+            font-size: 2rem;
+            margin-bottom: .8rem;
+            letter-spacing: -.05rem;
+            margin:0;
+        }
+    }
+}
+
+.product__pricing{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .product__price {
+        font-size: 0.7em;
+        text-align: center;
+        color: green;
+    }
+    
+    .product__price--old-price{
+        font-size: 0.6em;
+        color: red;
+        margin-right:5px;
+        text-decoration: line-through;
+    }
+
+    .product__price--installments{
+        font-size: 1.4rem;
+        margin-left: 1rem;
+        color: #a7a7a7;
+    }
+}
+
+.product__add-to-cart {
+    margin-top: 2rem;
+    background-color: #212529;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 0.2rem 2rem 0 rgba(0,0,0,.5);
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    outline: none;
+    cursor: pointer;
+    padding: 1.2rem;
+    position: relative;
+    text-align: center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    width: 70%;
+    font-weight: bolder;
+    font-size: 1rem;
+
+}
+
+@media screen and (max-width : 1024px) {
+    .single__product{
+        flex-direction: column;
+
+        .product__image {
+            width: 100%;
+            
+            img{
+                width: 100%;
+            }
+        }
+
+        .product__content{
+            padding: 1.0rem;
+            max-width: 1000%;
+        }
+    }
+
+    .product__add-to-cart {
+        width: 80%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}

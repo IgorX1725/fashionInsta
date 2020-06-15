@@ -1,0 +1,13 @@
+const ADD_TO_CART = 'ADD_TO_CART'
+const SET_SUBTOTAL = 'SET_SUBTOTAL'
+const REMOVE_QUANTITY_ITEM = 'REMOVE_QUANTITY_ITEM'
+const REMOVE_ITEM = 'REMOVE_ITEM'
+
+const cartConstants = {
+    ADD_TO_CART,
+    SET_SUBTOTAL,
+    REMOVE_QUANTITY_ITEM,
+    REMOVE_ITEM
+}
+
+export default cartConstants

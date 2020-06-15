@@ -1,0 +1,37 @@
+header{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    .header__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    position: relative;
+    padding: 12px 15px;
+    
+    .header__logo{
+        width: 120px;
+    }
+
+    .header__buttons{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .button{
+            background: none;
+            color: inherit;
+            border: none;
+            padding: 0;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+        }
+    }
+}
+}

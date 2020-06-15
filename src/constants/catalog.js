@@ -1,0 +1,11 @@
+const SET_IS_LOADING_ACTION  = 'SET_IS_LOADING_ACTION'
+const SET_PRODUCTS_ACTION = 'SET_PRODUCTS_ACTION'
+const SET_ERROR_ACTION  = 'SET_ERROR_ACTION'
+
+const catalogConsts = {
+    SET_IS_LOADING_ACTION,
+    SET_PRODUCTS_ACTION,
+    SET_ERROR_ACTION
+}
+
+export default catalogConsts

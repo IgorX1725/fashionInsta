@@ -1,0 +1,65 @@
+.products__box{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+
+    .product__link{
+        text-decoration: none;
+        
+    }
+
+     figure{
+        width: 100%;
+        margin: 0;
+
+        img{
+             width: 100%;
+            }
+        
+        .product__name{
+            font-size: 1.0rem;
+            margin-top: 1em;
+            margin-bottom: 0;
+            text-align: center;
+            color:#212529;
+        }
+
+    }
+
+    .badge {
+        position: absolute;
+        right: 0;
+        margin: 0;
+        display: inline-block;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: .2rem;
+    }
+    .badge--discount{
+        background-color: #212529;
+        color: #fff;
+    }
+
+    .prices{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .product__price {
+            font-size: 0.7em;
+            text-align: center;
+            color: green;
+        }
+        
+        .product__price--old-price{
+            font-size: 0.6em;
+            color: red;
+            margin-right:5px;
+            text-decoration: line-through;
+        }
+    
+    }
+    
+}
+

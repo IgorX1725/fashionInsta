@@ -1,0 +1,97 @@
+.link{
+    text-decoration: none;
+}
+.item{
+    padding: 20px 0;
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.08);
+
+    .item__image{
+        width: 25%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        img{
+            width: 100%;
+        }
+
+        .image__button{
+            border: none;
+            background: transparent;
+            font-size: 50%;
+            padding: 10px 0;
+            cursor: pointer;
+            outline: inherit;
+            color:#ff0000;
+        }
+        .image__button:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .item__info{
+        width: 50%;
+        p{
+            margin:0;
+        }
+        .info__name{
+            font-size: 1rem;
+            font-weight: 600;
+            margin-top: 0;
+            margin-right: 5px;
+            margin-bottom: .5rem;
+        }
+
+        .info__size{
+            font-size: 1rem;
+            color: #a7a7a7;
+            padding: 5px;
+        }
+
+        .info__quantity{
+            display: flex;
+            margin-top: 5px;
+            .quantity__value{
+                margin: 3px 7px;
+                
+            }
+
+            .quantity__button{
+                line-height: 0;
+                font-weight: 600;
+                padding: 3px 10px;
+                border: .1rem solid #212529;
+                cursor: pointer;
+                background: transparent;
+                font-size: 1rem;
+            }
+    
+            .quantity__button:hover{
+                background-color: #000;
+                color :#fff;
+            }
+        }
+
+    }
+
+    .item__pricing{
+        
+        .pricing__price{
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0;
+        }
+        .pricing__installments{
+            font-size: .8rem;
+            color: #a7a7a7;
+
+        }
+    }
+}
